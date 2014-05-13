@@ -6,7 +6,7 @@ import redis
 import tornadoredis
 from torndb import Connection
 
-from hqlh.config import configs
+from bkmfc.config import configs
 
 
 _SYNC_REDIS_ = {}

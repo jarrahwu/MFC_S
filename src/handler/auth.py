@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 #coding=utf8
-from hqlh import codedef as DEFINE
-import hqlh.uservice
-from hqlh.wrapper import BaseHandler
-from hqlh.wrapper import token_decode
+from bkmfc import codedef as DEFINE
+import bkmfc.uservice
+from bkmfc.wrapper import BaseHandler
+from bkmfc.wrapper import token_decode
 
 def url_spec(*args, **kwargs):
     return [

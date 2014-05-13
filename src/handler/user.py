@@ -1,15 +1,14 @@
 #!/usr/bin/env python
 #encoding=utf8
-from hqlh.uservice import exist_user
-from hqlh.validate import valid_pwd, valid_mobile
-from hqlh import codedef as DEFINE
-from hqlh.wrapper import BaseHandler
-from hqlh.uservice import register_user, get_id_user, update_user
+from bkmfc.uservice import exist_user
+from bkmfc.validate import valid_pwd, valid_mobile
+from bkmfc import codedef as DEFINE
+from bkmfc.wrapper import BaseHandler
+from bkmfc.uservice import register_user, get_id_user, update_user
 def url_spec(*args, **kwargs):
     return [
         (r'/user/?', UserHandler, kwargs),
     ]
-
 
 class UserHandler(BaseHandler):
 

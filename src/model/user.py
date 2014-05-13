@@ -1,6 +1,6 @@
 # coding:utf8
 
-import hqlh.db
+import bkmfc.db
 
 def create_user(user):
     '''用户注册
