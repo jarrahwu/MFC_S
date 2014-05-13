@@ -27,7 +27,6 @@ class Application(tornado.web.Application):
         handler_mods = [
             'auth',
             'user',
-            'code',
         ]
         for i in handler_mods:
             m = __import__('handler.' + i, fromlist=['url_spec'])
