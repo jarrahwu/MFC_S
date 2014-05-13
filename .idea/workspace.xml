@@ -13,6 +13,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MFC$mfc.coverage" NAME="mfc Coverage Results" MODIFIED="1399950014256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/bin" />
+    <SUITE FILE_PATH="coverage/MFC$alltests.coverage" NAME="alltests Coverage Results" MODIFIED="1399954176694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -26,13 +27,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mfc.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mfc.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bin/mfc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="19" selection-start="612" selection-end="612" vertical-scroll-proportion="-0.30241936" vertical-offset="644" max-vertical-offset="1140">
+            <state line="52" column="50" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.0" vertical-offset="644" max-vertical-offset="1140">
               <folding>
                 <element signature="e#36#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="34" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1539">
+              <folding>
+                <marker date="1399953956000" expanded="true" signature="123:170" placeholder="INSERT INTO ..." />
+                <marker date="1399953956000" expanded="true" signature="519:565" placeholder="SELECT * FRO..user..." />
+                <marker date="1399953956000" expanded="true" signature="809:841" placeholder="SELECT * FRO..user..." />
+                <marker date="1399953956000" expanded="true" signature="1007:1035" placeholder="SELECT * FRO..user..." />
+                <marker date="1399953956000" expanded="true" signature="1202:1217" placeholder="UPDATE user ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alltests.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/alltests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.3830645" vertical-offset="0" max-vertical-offset="760">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/bkmfc/db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="0" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="1121">
+              <folding>
+                <element signature="e#37#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uservice.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/bkmfc/uservice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="760">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth_test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/auth_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="0" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-2.7307692" vertical-offset="670" max-vertical-offset="1140">
+              <folding>
+                <element signature="e#31#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/handler/auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="0" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="1102">
+              <folding>
+                <element signature="e#35#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/user_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="0" selection-start="2723" selection-end="2723" vertical-scroll-proportion="-5.8461537" vertical-offset="1444" max-vertical-offset="1919">
+              <folding>
+                <element signature="e#39#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mfc.conf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/etc/mfc.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="19" selection-start="32" selection-end="32" vertical-scroll-proportion="-0.76" vertical-offset="0" max-vertical-offset="171">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,13 +135,17 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/etc/fitter.conf" />
-        <option value="$PROJECT_DIR$/src/etc/db.conf" />
         <option value="$PROJECT_DIR$/src/lib/__init__.py" />
-        <option value="$PROJECT_DIR$/src/handler/auth.py" />
-        <option value="$PROJECT_DIR$/src/model/user.py" />
         <option value="$PROJECT_DIR$/src/lib/bkmfc/db.py" />
         <option value="$PROJECT_DIR$/src/handler/user.py" />
         <option value="$PROJECT_DIR$/src/bin/mfc.py" />
+        <option value="$PROJECT_DIR$/src/handler/auth.py" />
+        <option value="$PROJECT_DIR$/src/etc/db.conf" />
+        <option value="$PROJECT_DIR$/src/etc/mfc.conf" />
+        <option value="$PROJECT_DIR$/test/auth_test.py" />
+        <option value="$PROJECT_DIR$/test/user_test.py" />
+        <option value="$PROJECT_DIR$/src/model/user.py" />
+        <option value="$PROJECT_DIR$/test/alltests.py" />
       </list>
     </option>
   </component>
@@ -181,7 +272,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MFC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MFC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,6 +331,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bkmfc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MFC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MFC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,14 +407,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/src/lib" />
       <recent name="$PROJECT_DIR$/src/lib/mfc" />
       <recent name="$PROJECT_DIR$/src/etc" />
       <recent name="$PROJECT_DIR$/src/model" />
-      <recent name="$PROJECT_DIR$/src/bin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mfc">
+  <component name="RunManager" selected="Python.alltests">
     <configuration default="false" name="mfc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,6 +429,25 @@
       <module name="MFC" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/bin/mfc.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="alltests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MFC" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/alltests.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -461,12 +603,14 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.mfc" />
+      <item index="1" class="java.lang.String" itemvalue="Python.alltests" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.mfc" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.alltests" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mfc" />
       </list>
     </recent_temporary>
   </component>
@@ -605,7 +749,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/etc/db.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="52" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="228" />
+        <state line="1" column="52" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="228">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/bkmfc/cache.py">
@@ -673,11 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/etc/db.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="52" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="228" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/bkmfc/cache.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
@@ -692,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/bkmfc/uservice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/bkmfc/validate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="23" selection-start="401" selection-end="401" vertical-scroll-proportion="0.23387097" vertical-offset="188" max-vertical-offset="684">
@@ -709,20 +843,6 @@
     <entry file="file://$PROJECT_DIR$/src/lib/bkmfc/wrapper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="31" selection-start="1008" selection-end="1008" vertical-scroll-proportion="1.4556452" vertical-offset="38" max-vertical-offset="1444">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/bkmfc/codedef.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/etc/mfc.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="37" selection-start="84" selection-end="84" vertical-scroll-proportion="0.12101911" vertical-offset="0" max-vertical-offset="471">
           <folding />
         </state>
       </provider>
@@ -759,39 +879,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/handler/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0" vertical-offset="481" max-vertical-offset="1102">
+          <folding>
+            <element signature="e#35#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/bkmfc/uservice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/etc/mfc.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="32" selection-end="32" vertical-scroll-proportion="-0.76" vertical-offset="0" max-vertical-offset="171">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/etc/db.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="97" selection-end="97" vertical-scroll-proportion="0.10764872" vertical-offset="0" max-vertical-offset="706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/auth_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-2.7307692" vertical-offset="670" max-vertical-offset="1140">
+          <folding>
+            <element signature="e#31#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lib/bkmfc/db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="111" selection-end="111" vertical-scroll-proportion="0.3146998" vertical-offset="0" max-vertical-offset="1121">
-          <folding />
+        <state line="46" column="0" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="638" max-vertical-offset="1121">
+          <folding>
+            <element signature="e#37#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="27" selection-end="27" vertical-scroll-proportion="0.076612905" vertical-offset="0" max-vertical-offset="1539">
+        <state line="7" column="34" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1539">
           <folding>
-            <marker date="1399949693000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1399949693000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
-            <marker date="1399949693000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
-            <marker date="1399949693000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
-            <marker date="1399949693000" expanded="true" signature="-1:-1" placeholder="UPDATE user ..." />
+            <marker date="1399953956000" expanded="true" signature="123:170" placeholder="INSERT INTO ..." />
+            <marker date="1399953956000" expanded="true" signature="519:565" placeholder="SELECT * FRO..user..." />
+            <marker date="1399953956000" expanded="true" signature="809:841" placeholder="SELECT * FRO..user..." />
+            <marker date="1399953956000" expanded="true" signature="1007:1035" placeholder="SELECT * FRO..user..." />
+            <marker date="1399953956000" expanded="true" signature="1202:1217" placeholder="UPDATE user ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/handler/auth.py">
+    <entry file="file://$PROJECT_DIR$/test/user_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="10" selection-start="141" selection-end="141" vertical-scroll-proportion="0.19153225" vertical-offset="0" max-vertical-offset="1102">
+        <state line="84" column="0" selection-start="2723" selection-end="2723" vertical-scroll-proportion="-5.8461537" vertical-offset="1444" max-vertical-offset="1919">
+          <folding>
+            <element signature="e#39#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/bkmfc/codedef.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bin/mfc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="612" selection-end="612" vertical-scroll-proportion="-0.30241936" vertical-offset="644" max-vertical-offset="1140">
+        <state line="52" column="50" selection-start="1511" selection-end="1511" vertical-scroll-proportion="0.0" vertical-offset="511" max-vertical-offset="1140">
           <folding>
             <element signature="e#36#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/alltests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="135" selection-end="135" vertical-scroll-proportion="0.3830645" vertical-offset="0" max-vertical-offset="760">
+          <folding />
         </state>
       </provider>
     </entry>

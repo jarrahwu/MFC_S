@@ -5,7 +5,7 @@ import bkmfc.db
 def create_user(user):
     '''用户注册
     '''
-    dbc = hqlh.db.get_conn('fitter')
+    dbc = bkmfc.db.get_conn('bkmfc')
     sql = "INSERT INTO user (mobile,passwd) VALUES (%s,%s)"
     mobile = user['mobile']
     password = user['password']
@@ -16,7 +16,7 @@ def create_user(user):
 def login_user(user):
     '''用户登陆
     '''
-    dbc = hqlh.db.get_conn('fitter')
+    dbc = bkmfc.db.get_conn('bkmfc')
     mobile = user['mobile']
     password = user['password']
     params = [mobile,password]
@@ -29,7 +29,7 @@ def login_user(user):
 def exist_user(user):
     '''检查用户存在
     '''
-    dbc = hqlh.db.get_conn('fitter')
+    dbc = bkmfc.db.get_conn('bkmfc')
     mobile = user['mobile']
     params = [mobile]
     userInfo = dbc.get("SELECT * FROM user WHERE mobile=%s",*params)
@@ -39,7 +39,7 @@ def exist_user(user):
         return False
 
 def id_user(uid):
-    dbc = hqlh.db.get_conn('fitter')
+    dbc = bkmfc.db.get_conn('bkmfc')
     userInfo = dbc.get("SELECT * FROM user WHERE id=%s",uid)
 
     if userInfo:return userInfo
@@ -67,7 +67,7 @@ def update_user(user):
     sql = sql_cmd + sql_clause + " WHERE id = %s" % uid
 
     params = user.values()
-    dbc = hqlh.db.get_conn('fitter')
+    dbc = bkmfc.db.get_conn('fitter')
 
     ret = dbc.execute(sql, *params)
     print ret,sql

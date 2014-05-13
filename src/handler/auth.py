@@ -32,7 +32,7 @@ class LoginHandler(BaseHandler):
     #调用服务登陆验证
     def is_valid(self, mobile, password):
         #if account == password:return True
-        userInfo = hqlh.uservice.login_user(mobile=mobile, password=password)
+        userInfo = bkmfc.uservice.login_user(mobile=mobile, password=password)
         if userInfo:
             return userInfo
         else: return False
