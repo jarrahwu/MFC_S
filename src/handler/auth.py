@@ -45,7 +45,6 @@ class LoginHandler(BaseHandler):
         userInfo['token'] = token
         # self.set_cookie("token", token, expires_days=30)
         self.set_token_cookie(token)
-        print(userInfo)
         self.write_back(code=1,**userInfo)
 
     def send_user_error(self, errorInfo):
