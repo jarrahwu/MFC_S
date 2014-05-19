@@ -67,7 +67,7 @@ def update_user(user):
     sql = sql_cmd + sql_clause + " WHERE id = %s" % uid
 
     params = user.values()
-    dbc = bkmfc.db.get_conn('fitter')
+    dbc = bkmfc.db.get_conn('bkmfc')
 
     ret = dbc.execute(sql, *params)
     print ret,sql

@@ -7,7 +7,7 @@ import unittest
 
 
 TEST_MODULES = [
-     # 'auth_test',
+     'auth_test',
      'user_test',
 ]
 
